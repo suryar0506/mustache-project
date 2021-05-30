@@ -11,3 +11,21 @@ canvas{
     border: 5px solid black;
     box-shadow: 2px 2px 38px black;
 }
+
+#thumbs_up_image{
+    float: left;
+}
+
+#score_holder{
+    border : 5px dashed blue; 
+    color: red;
+    box-shadow: 1px 1px 38px red;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-name: example;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px yellow;}
+}
